@@ -1,7 +1,10 @@
 # -*- coding:utf-8 -*-
 # comment 0
 from wsgiref.simple_server import make_server, demo_app
-
+# comment 1
 httpd = make_server('', 8000, demo_app)
+# comment 2
 print (u'Listening on port 8000 for HTTP requests...')
+# comment 3
 httpd.handle_request()
+
