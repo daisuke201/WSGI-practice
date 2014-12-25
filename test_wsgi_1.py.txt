@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-
+# comment 0
 from wsgiref.simple_server import make_server, demo_app
 
 httpd = make_server('', 8000, demo_app)
